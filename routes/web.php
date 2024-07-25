@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\KaryawanController;
 
 /*
 |--------------------------------------------------------------------------
@@ -24,4 +25,10 @@ use Illuminate\Support\Facades\Route;
 Auth::routes();
 
 Route::get('/', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
+        Route::get('/karyawan/', [KaryawanController::class, 'index']);
+        Route::get('/karyawan/form/', [KaryawanController::class, 'create']);
+        Route::post('/karyawan/store/', [KaryawanController::class, 'store']);
+        Route::get('/karyawan/edit/{id}', [KaryawanController::class, 'edit']);
+        Route::put('/karyawan/{id}', [KaryawanController::class, 'update']);
+        Route::delete('/karyawan/{id}', [KaryawanController::class, 'destroy']);
 
