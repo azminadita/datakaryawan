@@ -195,18 +195,36 @@
                         </a>
                     </li>
                     <li class="nav-item">
-                        <a href="/mahasiswa/" class="nav-link">
+                        <a href="/jabatan/" class="nav-link">
                             <i class="nav-icon fas fa-users"></i>
                             <p>
-                                Mahasiswa
+                                Jabatan
                             </p>
                         </a>
                     </li>
                     <li class="nav-item">
-                        <a href="/jurusan/" class="nav-link">
+                        <a href="/karyawan/" class="nav-link">
                             <i class="nav-icon fas fa-building"></i>
                             <p>
-                                Jurusan
+                                karyawan
+                            </p>
+                        </a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a href="/gaji/" class="nav-link">
+                            <i class="nav-icon fas fa-building"></i>
+                            <p>
+                                Gaji
+                            </p>
+                        </a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a href="/shifts/" class="nav-link">
+                            <i class="nav-icon fas fa-building"></i>
+                            <p>
+                                Shift
                             </p>
                         </a>
                     </li>
