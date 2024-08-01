@@ -195,7 +195,7 @@
                         </a>
                     </li>
                     <li class="nav-item">
-                        <a href="/jabatan/" class="nav-link">
+                        <a href="{{ route('jabatan.index') }}" class="nav-link">
                             <i class="nav-icon fas fa-users"></i>
                             <p>
                                 Jabatan
@@ -203,10 +203,10 @@
                         </a>
                     </li>
                     <li class="nav-item">
-                        <a href="/karyawan/" class="nav-link">
+                        <a href="{{ route('karyawan.index') }}" class="nav-link">
                             <i class="nav-icon fas fa-building"></i>
                             <p>
-                                karyawan
+                                Karyawan
                             </p>
                         </a>
                     </li>
